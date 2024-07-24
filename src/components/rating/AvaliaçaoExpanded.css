@@ -1,0 +1,13 @@
+.star-rating {
+    font-size: 31px; /* Tamanho das estrelas */
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .star-filled {
+    color: gold; /* Cor das estrelas preenchidas */
+  }
+  
+  .star {
+    color: lightgray; /* Cor das estrelas vazias */
+  }

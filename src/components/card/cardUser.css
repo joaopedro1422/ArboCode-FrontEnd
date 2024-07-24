@@ -1,0 +1,93 @@
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.card-user{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    border-color: aqua;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(100,100,111,0.2)0px 7px 29px 0px;
+    height: 515px;
+    max-height: 520px;
+    border: 1px solid #cacaca;
+    margin-bottom: 10px;
+}
+
+.btn-card-acesso-user{
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.card-name-user{
+    align-content: center;
+    color:rgb(48, 47, 47) ;
+    font-size: 18px;
+    padding-left: 25%;
+    padding-right: 10%;
+    padding-top: 0%;
+    margin-top: 3%;
+}
+
+
+.card-porte-user{
+    font-family: sans-serif;
+    padding-top: 0%;
+    padding-left: 5%;
+    font-size: 15px;
+}
+.card-desc-user{
+    font-family: Arial;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 15px;
+    color: rgb(78, 76, 76);
+    font-family:  'Minha fonte';
+}
+
+.card-valor-user{
+    font-size: 23px;
+    padding-top: 5%;
+    padding-left: 89px;
+    font-family: Arial;
+    color: rgb(77, 75, 75);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card-image-user img {
+    border-radius: 10px 10px 0 0px; /* Ajuste os cantos arredondados conforme necessário */
+    width: 275px;
+    height: 265px;
+
+    padding: 0px 0px 0px 0px;
+    top: 0;
+}
+
+.button-card-user{
+    width: 115px;
+    height: 40px;
+    background-color: rgb(231, 167, 28);
+    border-color: transparent;
+    border-radius: 13px;
+    margin-left: 82px;
+    margin-bottom: 20px;
+    margin-top: 11%;
+}
+
+.button-card-user:hover{
+    background-color: rgb(216, 151, 12);
+    width: 115px;
+    height: 41px;
+    cursor: pointer;
+}
+
+
+

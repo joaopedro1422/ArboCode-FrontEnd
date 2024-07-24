@@ -1,0 +1,233 @@
+
+
+.chivo {
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+.container-nav{
+    max-width: 1280px;
+    margin: auto;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-login button{
+    background-color: rgb(71, 230, 84);
+    width: 100px;
+    height: 30px;
+    border-color: transparent;
+    border-radius: 4px;
+    color: white;
+    box-shadow: rgba(56, 56, 56, 0.2)0px 3px 8px 0px;
+    font-family:'Chivo', sans-serif;
+}
+
+.btn-login button:hover{
+    background-color: rgb(35, 206, 1);
+    cursor: pointer;
+}
+
+.containerh1{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    
+    
+    
+    
+}
+.indicadorVerde{
+    background-color: rgb(0, 255, 76);
+    height: 50px;
+    margin-top: 20px;
+    width: 8px;
+    margin-left: 115px;
+    
+}
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+header i{
+    font-size: 30px;
+    color: rgb(63, 135, 197);
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:'Chivo', sans-serif;
+    font-size: 15px;
+}
+
+header ul li a:hover{
+    color: rgb(32, 241, 25);
+}
+
+.icone-principal{
+    display: inline-block; /* Para que possamos definir largura e altura */
+    width: 120px; /* Ajuste para o tamanho desejado */
+    height: 40px; /* Ajuste para o tamanho desejado */
+    background-image: url('../src/assets/lOGOarBOCODE.png'); /* Caminho para a imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    margin-top: 5px;
+}
+
+.icone-repository{
+    display: inline-block; /* Para que possamos definir largura e altura */
+
+    width: 33px; /* Ajuste para o tamanho desejado */
+    height: 20px; /* Ajuste para o tamanho desejado */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    margin-top: 12px;
+    background-image: url('../src/assets/folder_data_20dp_FILL0_wght400_GRAD0_opsz20 (1).png');
+}
+
+.section-home{
+    width: 100%;
+    height: 570px;
+    background-image: url('../src/assets/pexels-mikegreer-photos-1390371.jpg');
+    background-size: 150%; /* Aumenta o tamanho da imagem para 200% */
+    background-position: top; /* Ajusta a posição da imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+.Header{
+    padding-left: 25%;
+    padding-top: 13%;
+    color: white;
+    font-size: 39px;
+    font-family: Arial;
+    margin-bottom: 8px;
+}
+
+.paragrafo-home{
+    margin-top: 3px;
+    padding-left: 25%;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.plusverde{
+    color: rgb(38, 245, 30);
+}
+
+.nav{
+    height: 35px;
+}
+
+.button-header{
+    margin-top: 3px;
+    margin-left: 25%;
+    background-color: hwb(113 11% 9% / 0.87);
+    width: 145px;
+    height: 40px;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-family: Tahoma;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+.button-header:hover{
+    background-color: rgb(35, 170, 22);
+    cursor:hand;
+}
+
+.p-sobre{
+    font-family: 'Chivo';
+    margin-left: 42%;
+    padding-top: 20px;
+}
+
+.container-sobre{
+    color: rgb(255, 255, 255);
+    width: 85%;
+    border-radius: 14px;
+    border: 1.5px solid #09ff00;
+
+    height: 602px;
+    margin-left: 8%;
+    background-color: rgb(17, 228, 105);
+    margin-top: 1%;
+    margin-bottom: 40px;
+    display: flex;
+    box-shadow: rgba(100,100,111,0.2)0px 7px 29px 0px;
+}
+
+.container-sobre p{
+    margin-left: 18px;
+    font-family: 'Chivo';
+    font-size: 15px;
+}
+
+.container-sobre h3{
+
+    margin-left: 18px;
+    font-family: 'Chivo';
+}
+
+.container-sobre h4{
+
+    margin-left: 18px;
+    font-family: 'Chivo';
+}
+
+.container-sobre ul{
+    margin-left: 18px;
+    font-family: 'Chivo';
+    font-size: 15px;
+}
+.foto-sobre{
+    width: 500px;
+    height: 100%;
+    border-radius: 14px 0px 0px 14px;
+    
+}
+
+.end-container{
+    margin-top: 10%;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.end-container p{
+    color: aliceblue;
+    margin-top: 45px;
+    margin-left: 3px;
+    font-family: 'Chivo';
+}
+
+.icon-email{
+    height: 25px;
+    margin-left: 10%;
+    margin-top: 43px;
+}

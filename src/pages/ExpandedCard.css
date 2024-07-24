@@ -1,0 +1,95 @@
+.expanded-image img{
+   
+    height: 100%;
+    border-radius: 12px 0 0 12px;
+
+}
+.expanded-card{
+    width: 100%;
+    margin-top: 7%;
+    height: 100%;
+    display: flex;
+}
+
+.expanded-container{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    height: 440px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 12px;
+    
+
+}
+
+.expanded-container img{
+    width: 550px;
+}
+.expanded-name{
+    align-content: center;
+    color:rgb(0, 0, 0) ;
+    font-size: 22px;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 0%;
+    margin-top: 3%;
+    font-family: 'Chivo';
+}
+
+
+.expanded-porte{
+    font-family: sans-serif;
+    padding-top: 4%;
+    padding-left: 25px;
+    font-size: 15px;
+    font-family: 'Chivo';
+}
+.expanded-desc{
+    font-family: Arial;
+    padding-top: 3%;
+    padding-left: 25px;
+    font-size: 16px;
+    color: rgb(78, 76, 76);
+    font-family:  'Minha fonte';
+    font-family: 'Chivo';
+}
+
+.expanded-valor{
+    font-size: 30px;
+    padding-left: 60%;
+    padding-top: 20%;
+    font-family: Arial;
+    color: rgb(77, 75, 75);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+p {
+    margin: 0;
+}
+
+.expanded-aVista{
+    padding-left: 60%;
+    font-family: 'Chivo';
+    font-size: 14px;
+}
+
+.btn-back{
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.icon-back{
+    font-size: 30px;
+    color: rgb(201, 201, 201);
+}
+
+
+
+
+
